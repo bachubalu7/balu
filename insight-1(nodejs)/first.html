@@ -1,0 +1,29 @@
+<!--<html>
+    <head>
+
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+            var text='{"name":"balu","age":"30"}';
+            var obj=JSON.parse(text);
+            document.getElementById("demo").innerHTML=obj.name+" "+obj.age;
+        </script>
+
+    </body>
+</html>
+-->
+<html>
+    <head>
+        <script link="application/json" src="jsonobj.json"></script>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+            
+            var obj=JSON.parse(employee);
+            document.getElementById("demo").innerHTML=obj.name+" "+obj.age;
+        </script>
+
+    </body>
+</html>
